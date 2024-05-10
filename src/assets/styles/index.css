@@ -1,0 +1,48 @@
+:root{
+  --primaryColor: #d00000;
+  --SecondaryColor: #dc2f02; 
+  --grayColor: #c0c0c0;
+}
+
+:root {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+  margin: 0;
+}
+
+body{
+  margin: 0;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--SecondaryColor);
+}
+
+section{
+  min-height: 100vh;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    background-color: #011f2a;
+    color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
