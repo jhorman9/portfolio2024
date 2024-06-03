@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     setUrlPage(urlActually);
-  },[])
+  },[urlActually])
 
   return (
     <>

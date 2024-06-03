@@ -10,12 +10,12 @@ export const NavBar = () => {
   return (
     <>
     <header>
-        <ul>
+        <ul className="container">
           <li><a href='tel:+507659661547'>+50765961547</a></li>
           <li><a href="mailto:jhosmita9@gmail.com">jhosmita9@gmail.com</a></li>
         </ul>
     </header>
-    <nav>
+    <nav className="container">
         <picture>
           <img loading="lazy" src={iconJPG} alt="Logo de Web Makers" title="Logo de Web Makers" width={100} height={100} />
         </picture>
